@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BA5B51019075C3100C28388 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA5B50F19075C3000C28388 /* GPUImage.framework */; };
+		8BA5B51419075F0500C28388 /* CapturePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA5B51219075F0500C28388 /* CapturePhotoViewController.m */; };
+		8BA5B51519075F0500C28388 /* CapturePhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BA5B51319075F0500C28388 /* CapturePhotoViewController.xib */; };
+		8BA5B51719075F3200C28388 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA5B51619075F3200C28388 /* CoreImage.framework */; };
+		8BA5B51919075F3C00C28388 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA5B51819075F3C00C28388 /* CoreMedia.framework */; };
+		8BA5B51B19075F4100C28388 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA5B51A19075F4100C28388 /* AVFoundation.framework */; };
+		8BA5B51D19075F4A00C28388 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA5B51C19075F4A00C28388 /* QuartzCore.framework */; };
+		8BA5B51F19075F5300C28388 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA5B51E19075F5300C28388 /* OpenGLES.framework */; };
+		8BD050CB1907583800C7ECE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD050CA1907583800C7ECE3 /* Foundation.framework */; };
+		8BD050CD1907583800C7ECE3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD050CC1907583800C7ECE3 /* CoreGraphics.framework */; };
+		8BD050CF1907583800C7ECE3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD050CE1907583800C7ECE3 /* UIKit.framework */; };
+		8BD050D51907583800C7ECE3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BD050D31907583800C7ECE3 /* InfoPlist.strings */; };
+		8BD050D71907583800C7ECE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD050D61907583800C7ECE3 /* main.m */; };
+		8BD050DB1907583800C7ECE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD050DA1907583800C7ECE3 /* AppDelegate.m */; };
+		8BD050DD1907583800C7ECE3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BD050DC1907583800C7ECE3 /* Images.xcassets */; };
+		8BD050E41907583800C7ECE3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD050E31907583800C7ECE3 /* XCTest.framework */; };
+		8BD050E51907583800C7ECE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD050CA1907583800C7ECE3 /* Foundation.framework */; };
+		8BD050E61907583800C7ECE3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD050CE1907583800C7ECE3 /* UIKit.framework */; };
+		8BD050EE1907583800C7ECE3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BD050EC1907583800C7ECE3 /* InfoPlist.strings */; };
+		8BD050F01907583800C7ECE3 /* FunCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD050EF1907583800C7ECE3 /* FunCameraTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BD050E71907583800C7ECE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BD050BF1907583800C7ECE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BD050C61907583800C7ECE3;
+			remoteInfo = FunCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8BA5B50F19075C3000C28388 /* GPUImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GPUImage.framework; sourceTree = "<group>"; };
+		8BA5B51119075F0500C28388 /* CapturePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CapturePhotoViewController.h; sourceTree = "<group>"; };
+		8BA5B51219075F0500C28388 /* CapturePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CapturePhotoViewController.m; sourceTree = "<group>"; };
+		8BA5B51319075F0500C28388 /* CapturePhotoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CapturePhotoViewController.xib; sourceTree = "<group>"; };
+		8BA5B51619075F3200C28388 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		8BA5B51819075F3C00C28388 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		8BA5B51A19075F4100C28388 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8BA5B51C19075F4A00C28388 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8BA5B51E19075F5300C28388 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		8BD050C71907583800C7ECE3 /* FunCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BD050CA1907583800C7ECE3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8BD050CC1907583800C7ECE3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8BD050CE1907583800C7ECE3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8BD050D21907583800C7ECE3 /* FunCamera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FunCamera-Info.plist"; sourceTree = "<group>"; };
+		8BD050D41907583800C7ECE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8BD050D61907583800C7ECE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BD050D81907583800C7ECE3 /* FunCamera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FunCamera-Prefix.pch"; sourceTree = "<group>"; };
+		8BD050D91907583800C7ECE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8BD050DA1907583800C7ECE3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8BD050DC1907583800C7ECE3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8BD050E21907583800C7ECE3 /* FunCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BD050E31907583800C7ECE3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8BD050EB1907583800C7ECE3 /* FunCameraTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FunCameraTests-Info.plist"; sourceTree = "<group>"; };
+		8BD050ED1907583800C7ECE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8BD050EF1907583800C7ECE3 /* FunCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunCameraTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BD050C41907583800C7ECE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA5B51F19075F5300C28388 /* OpenGLES.framework in Frameworks */,
+				8BA5B51D19075F4A00C28388 /* QuartzCore.framework in Frameworks */,
+				8BA5B51B19075F4100C28388 /* AVFoundation.framework in Frameworks */,
+				8BA5B51919075F3C00C28388 /* CoreMedia.framework in Frameworks */,
+				8BA5B51719075F3200C28388 /* CoreImage.framework in Frameworks */,
+				8BD050CD1907583800C7ECE3 /* CoreGraphics.framework in Frameworks */,
+				8BA5B51019075C3100C28388 /* GPUImage.framework in Frameworks */,
+				8BD050CF1907583800C7ECE3 /* UIKit.framework in Frameworks */,
+				8BD050CB1907583800C7ECE3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BD050DF1907583800C7ECE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD050E41907583800C7ECE3 /* XCTest.framework in Frameworks */,
+				8BD050E61907583800C7ECE3 /* UIKit.framework in Frameworks */,
+				8BD050E51907583800C7ECE3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BD050BE1907583800C7ECE3 = {
+			isa = PBXGroup;
+			children = (
+				8BD050D01907583800C7ECE3 /* FunCamera */,
+				8BD050E91907583800C7ECE3 /* FunCameraTests */,
+				8BD050C91907583800C7ECE3 /* Frameworks */,
+				8BD050C81907583800C7ECE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BD050C81907583800C7ECE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BD050C71907583800C7ECE3 /* FunCamera.app */,
+				8BD050E21907583800C7ECE3 /* FunCameraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BD050C91907583800C7ECE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BA5B51E19075F5300C28388 /* OpenGLES.framework */,
+				8BA5B51C19075F4A00C28388 /* QuartzCore.framework */,
+				8BA5B51A19075F4100C28388 /* AVFoundation.framework */,
+				8BA5B51819075F3C00C28388 /* CoreMedia.framework */,
+				8BA5B51619075F3200C28388 /* CoreImage.framework */,
+				8BA5B50F19075C3000C28388 /* GPUImage.framework */,
+				8BD050CA1907583800C7ECE3 /* Foundation.framework */,
+				8BD050CC1907583800C7ECE3 /* CoreGraphics.framework */,
+				8BD050CE1907583800C7ECE3 /* UIKit.framework */,
+				8BD050E31907583800C7ECE3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BD050D01907583800C7ECE3 /* FunCamera */ = {
+			isa = PBXGroup;
+			children = (
+				8BD050D91907583800C7ECE3 /* AppDelegate.h */,
+				8BD050DA1907583800C7ECE3 /* AppDelegate.m */,
+				8BD050DC1907583800C7ECE3 /* Images.xcassets */,
+				8BD050D11907583800C7ECE3 /* Supporting Files */,
+				8BA5B51119075F0500C28388 /* CapturePhotoViewController.h */,
+				8BA5B51219075F0500C28388 /* CapturePhotoViewController.m */,
+				8BA5B51319075F0500C28388 /* CapturePhotoViewController.xib */,
+			);
+			path = FunCamera;
+			sourceTree = "<group>";
+		};
+		8BD050D11907583800C7ECE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BD050D21907583800C7ECE3 /* FunCamera-Info.plist */,
+				8BD050D31907583800C7ECE3 /* InfoPlist.strings */,
+				8BD050D61907583800C7ECE3 /* main.m */,
+				8BD050D81907583800C7ECE3 /* FunCamera-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BD050E91907583800C7ECE3 /* FunCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BD050EF1907583800C7ECE3 /* FunCameraTests.m */,
+				8BD050EA1907583800C7ECE3 /* Supporting Files */,
+			);
+			path = FunCameraTests;
+			sourceTree = "<group>";
+		};
+		8BD050EA1907583800C7ECE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BD050EB1907583800C7ECE3 /* FunCameraTests-Info.plist */,
+				8BD050EC1907583800C7ECE3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BD050C61907583800C7ECE3 /* FunCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BD050F31907583800C7ECE3 /* Build configuration list for PBXNativeTarget "FunCamera" */;
+			buildPhases = (
+				8BD050C31907583800C7ECE3 /* Sources */,
+				8BD050C41907583800C7ECE3 /* Frameworks */,
+				8BD050C51907583800C7ECE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunCamera;
+			productName = FunCamera;
+			productReference = 8BD050C71907583800C7ECE3 /* FunCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BD050E11907583800C7ECE3 /* FunCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BD050F61907583800C7ECE3 /* Build configuration list for PBXNativeTarget "FunCameraTests" */;
+			buildPhases = (
+				8BD050DE1907583800C7ECE3 /* Sources */,
+				8BD050DF1907583800C7ECE3 /* Frameworks */,
+				8BD050E01907583800C7ECE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BD050E81907583800C7ECE3 /* PBXTargetDependency */,
+			);
+			name = FunCameraTests;
+			productName = FunCameraTests;
+			productReference = 8BD050E21907583800C7ECE3 /* FunCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BD050BF1907583800C7ECE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = alan;
+				TargetAttributes = {
+					8BD050E11907583800C7ECE3 = {
+						TestTargetID = 8BD050C61907583800C7ECE3;
+					};
+				};
+			};
+			buildConfigurationList = 8BD050C21907583800C7ECE3 /* Build configuration list for PBXProject "FunCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8BD050BE1907583800C7ECE3;
+			productRefGroup = 8BD050C81907583800C7ECE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BD050C61907583800C7ECE3 /* FunCamera */,
+				8BD050E11907583800C7ECE3 /* FunCameraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BD050C51907583800C7ECE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA5B51519075F0500C28388 /* CapturePhotoViewController.xib in Resources */,
+				8BD050D51907583800C7ECE3 /* InfoPlist.strings in Resources */,
+				8BD050DD1907583800C7ECE3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BD050E01907583800C7ECE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD050EE1907583800C7ECE3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BD050C31907583800C7ECE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD050DB1907583800C7ECE3 /* AppDelegate.m in Sources */,
+				8BD050D71907583800C7ECE3 /* main.m in Sources */,
+				8BA5B51419075F0500C28388 /* CapturePhotoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BD050DE1907583800C7ECE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD050F01907583800C7ECE3 /* FunCameraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BD050E81907583800C7ECE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BD050C61907583800C7ECE3 /* FunCamera */;
+			targetProxy = 8BD050E71907583800C7ECE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BD050D31907583800C7ECE3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BD050D41907583800C7ECE3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8BD050EC1907583800C7ECE3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BD050ED1907583800C7ECE3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BD050F11907583800C7ECE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8BD050F21907583800C7ECE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BD050F41907583800C7ECE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FunCamera/FunCamera-Prefix.pch";
+				INFOPLIST_FILE = "FunCamera/FunCamera-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8BD050F51907583800C7ECE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FunCamera/FunCamera-Prefix.pch";
+				INFOPLIST_FILE = "FunCamera/FunCamera-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8BD050F71907583800C7ECE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FunCamera.app/FunCamera";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FunCamera/FunCamera-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FunCameraTests/FunCameraTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8BD050F81907583800C7ECE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FunCamera.app/FunCamera";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FunCamera/FunCamera-Prefix.pch";
+				INFOPLIST_FILE = "FunCameraTests/FunCameraTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BD050C21907583800C7ECE3 /* Build configuration list for PBXProject "FunCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BD050F11907583800C7ECE3 /* Debug */,
+				8BD050F21907583800C7ECE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BD050F31907583800C7ECE3 /* Build configuration list for PBXNativeTarget "FunCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BD050F41907583800C7ECE3 /* Debug */,
+				8BD050F51907583800C7ECE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BD050F61907583800C7ECE3 /* Build configuration list for PBXNativeTarget "FunCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BD050F71907583800C7ECE3 /* Debug */,
+				8BD050F81907583800C7ECE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BD050BF1907583800C7ECE3 /* Project object */;
+}
